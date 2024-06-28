@@ -6,7 +6,7 @@ class Expense:
 
 class ExpenseTracker:
     def __init__(self):
-        self.expenses = []  # Initialize expenses list
+        self.expenses = []  
 
     def add_expense(self, expense):
         self.expenses.append(expense)
